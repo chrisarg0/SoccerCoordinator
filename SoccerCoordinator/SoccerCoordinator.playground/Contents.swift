@@ -137,17 +137,17 @@ func playerDraft() {
 
 //send letters to parents
 func parentLetters() {
-    print("Welcome to the Sharks!")
+    print("Welcome to the Sharks!\n")
     for player in sharks {
         print("Dear \(player["guardians"]!), We would like to welcome you and \(player["name"]!) to the Sharks family! We will have our first official practice on March 17 at 3pm at the local soccer complex. We look forward to seeing you there! -Coach")
     }
     
-    print("Welcome to the Dragons!")
+    print("Welcome to the Dragons!\n")
     for player in dragons {
         print("Dear \(player["guardians"]!), We would like to welcome you and \(player["name"]!) to the Dragons family! We will have our first official practice on March 17 at 1pm at the local soccer complex. We look forward to seeing you there! -Coach")
     }
     
-    print("Welcome to the Raptors!")
+    print("Welcome to the Raptors!\n")
     for player in raptors {
         print("Dear \(player["guardians"]!), We would like to welcome you and \(player["name"]!) to the Raptors family! We will have our first official practice on March 18 at 1pm at the local soccer complex. We look forward to seeing you there! -Coach")
     }
@@ -155,5 +155,10 @@ func parentLetters() {
 
 playerDraft()
 parentLetters()
+
+print("***SHARKS*** \n \(sharks) \n")
+print("***DRAGONS*** \n \(dragons) \n")
+print("***RAPTORS*** \n \(raptors) \n")
+
 
 
